@@ -8,10 +8,14 @@ Simply, it works exactly how a radio button would work. Being able to select bet
 ## Prerequisites
 
 jQuery (most versions will work since we don't do anything that would be regarded as elaborate)
-Bulma (bulma.io) feel free to use any other CSS library/framework. This should be easy to swap out since we a pretty much just colouring buttons. The style section in the example has only one entry that will need to be adjusted.
+
+Bulma (bulma.io) feel free to use any other CSS library/framework. This should be easy to swap out since we a pretty much just colouring 
+
+buttons. The style section in the example has only one entry that will need to be adjusted.
 
 Each anchor (button) requires the class `toggle` which is how our script identifies with the toggle buttons in our document.
 Each anchor is required to have `data-grp="field"` and `data-val="value"` which is used to group the toggle buttons together with their respective values.
+
 A hidden input form field is required for storing the selection and should be prepopulate with a value from the toggle group. The input should have at least an ID attribute which shares the data-grp name.
 
 i.e.
